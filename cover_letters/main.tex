@@ -20,19 +20,21 @@
 
 \begin{document}
 
-% Sender Information
+% Sender Information and Date
 \noindent
-\textbf{\yourname} \\
-\youraddress \\
-\yourcitystatezip \\
-\youremail \\
-\yourphone \\
-\vspace{1em}
-
-% Date
-\noindent
-\dateofletter \\
-\vspace{1em}
+\begin{minipage}[t]{0.6\textwidth}
+    \textbf{\yourname} \\
+    \youraddress \\
+    \yourcitystatezip \\
+    \youremail \\
+    \yourphone
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.35\textwidth}
+    \raggedleft
+    \dateofletter
+\end{minipage}
+\vspace{2em}
 
 % Recipient Information
 \noindent
