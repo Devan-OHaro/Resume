@@ -8,15 +8,26 @@ The repository is organized as follows:
 
 ```
 latex-repository/
-├── main.tex                 # Main document file
-├── sections/                # Directory for sections or chapters
-│   ├── introduction.tex
-│   ├── background.tex
-│   └── conclusion.tex
-├── figures/                 # Directory for images and graphics
-│   ├── diagram1.pdf
-│   ├── chart1.png
-│   └── logo.svg
+├── resumes/
+│   ├── main.tex                 # Main document file
+│   ├── sections/                # Directory for sections or chapters
+│   │   ├── introduction.tex
+│   │   ├── background.tex
+│   │   └── conclusion.tex
+│   └── figures/                 # Directory for images and graphics
+│       ├── diagram1.pdf
+│       ├── chart1.png
+│       └── logo.svg
+├── cover_letters/
+│   ├── main.tex                 # Main document file
+│   ├── sections/                # Directory for sections or chapters
+│   │   ├── introduction.tex
+│   │   ├── background.tex
+│   │   └── conclusion.tex
+│   └── figures/                 # Directory for images and graphics
+│       ├── diagram1.pdf
+│       ├── chart1.png
+│       └── logo.svg
 ├── bibliography/            # Directory for references and citations
 │   └── references.bib
 ├── styles/                  # Custom styles and templates
@@ -26,4 +37,3 @@ latex-repository/
 ├── Makefile                 # Build automation script
 └── README.md                # Repository documentation
 ```
-
