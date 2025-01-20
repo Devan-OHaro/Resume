@@ -1,0 +1,62 @@
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage[margin=1in]{geometry}   % Adjust page margins
+\usepackage{setspace}              % Line spacing
+\usepackage{hyperref}              % Clickable links
+\usepackage{lipsum}                % Placeholder text (optional)
+
+% Information
+\newcommand{\yourname}{Your Name}
+\newcommand{\youraddress}{123 Main Street}
+\newcommand{\yourcitystatezip}{City, State ZIP}
+\newcommand{\youremail}{youremail@example.com}
+\newcommand{\yourphone}{(123) 456-7890}
+\newcommand{\dateofletter}{\today}
+\newcommand{\recipient}{Hiring Manager}
+\newcommand{\companyname}{Company Name}
+\newcommand{\companyaddress}{Company Address}
+\newcommand{\companycitystatezip}{City, State ZIP}
+
+\begin{document}
+
+% Sender Information
+\noindent
+\textbf{\yourname} \\
+\youraddress \\
+\yourcitystatezip \\
+\youremail \\
+\yourphone \\
+\vspace{1em}
+
+% Date
+\noindent
+\dateofletter \\
+\vspace{1em}
+
+% Recipient Information
+\noindent
+\textbf{\recipient} \\
+\companyname \\
+\companyaddress \\
+\companycitystatezip \\
+\vspace{2em}
+
+% Salutation
+\noindent
+\textbf{Dear \recipient,} \\
+\vspace{1em}
+
+% Body
+\noindent
+\input{sections/body.tex} % Include body content from another file
+\vspace{1em}
+
+% Closing
+\noindent
+Sincerely, \\
+\vspace{2em}
+\yourname
+
+\end{document}
+
