@@ -6,6 +6,7 @@ This repository is designed to manage and compile LaTeX documents efficiently. I
 ## Repository Structure
 The repository is organized as follows:
 
+```
 latex-repository/
 ├── main.tex                 # Main document file
 ├── sections/                # Directory for sections or chapters
@@ -24,4 +25,5 @@ latex-repository/
 │   └── colors.sty
 ├── Makefile                 # Build automation script
 └── README.md                # Repository documentation
+```
 
