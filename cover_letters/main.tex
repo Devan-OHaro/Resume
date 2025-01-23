@@ -7,38 +7,41 @@
 \usepackage{lipsum}                % Placeholder text (optional)
 
 % Information
-\newcommand{\yourname}{Your Name}
-\newcommand{\youraddress}{123 Main Street}
-\newcommand{\yourcitystatezip}{City, State ZIP}
-\newcommand{\youremail}{youremail@example.com}
-\newcommand{\yourphone}{(123) 456-7890}
+\newcommand{\yourname}{Devan O'Haro}
+\newcommand{\youraddress}{22 Spillanes Hl}
+\newcommand{\yourcitystatezip}{South Berwick, ME 03908}
+\newcommand{\youremail}{devanoharo@gmail.com}
+\newcommand{\yourphone}{(443) 386-2202}
 \newcommand{\dateofletter}{\today}
 \newcommand{\recipient}{Hiring Manager}
-\newcommand{\companyname}{Company Name}
-\newcommand{\companyaddress}{Company Address}
-\newcommand{\companycitystatezip}{City, State ZIP}
+\newcommand{\companyname}{Naval Sea Systems Command}
+% \newcommand{\companyaddress}{Company Address}
+\newcommand{\companycitystatezip}{Washington, DC}
+\newcommand{\job}{NAVSEA Enterprise Workforce Development}
 
 \begin{document}
 
-% Sender Information
+% Sender Information and Date
 \noindent
-\textbf{\yourname} \\
-\youraddress \\
-\yourcitystatezip \\
-\youremail \\
-\yourphone \\
-\vspace{1em}
-
-% Date
-\noindent
-\dateofletter \\
-\vspace{1em}
+\begin{minipage}[t]{0.6\textwidth}
+    \textbf{\yourname} \\
+    \youraddress \\
+    \yourcitystatezip \\
+    \youremail \\
+    \yourphone
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.35\textwidth}
+    \raggedleft
+    \dateofletter
+\end{minipage}
+\vspace{2em}
 
 % Recipient Information
 \noindent
-\textbf{\recipient} \\
+Applying for \textbf{\job} position\\
 \companyname \\
-\companyaddress \\
+% \companyaddress \\
 \companycitystatezip \\
 \vspace{2em}
 
